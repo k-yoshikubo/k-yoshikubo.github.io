@@ -1,4 +1,6 @@
 site_name: "ニューラル株式会社"
+site_url: https://www.newral.co.jp/
+copyright: 'Copyright © 2022 - Newral, Inc.'
 
 site_dir: docs
 docs_dir: src
@@ -33,6 +35,14 @@ extra:
     text: "Noto Sans JP"
     code: "Consolas"    
   logo: 'assets/images/logo.png'
+  search:
+    language: 'jp'
+  social:  ## ソーシャルリンク設定
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/newral1998
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/Newral.Inc
+
 
 markdown_extensions:
   - admonition
