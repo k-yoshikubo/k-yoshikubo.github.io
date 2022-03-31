@@ -42,7 +42,8 @@ extra:
       link: https://twitter.com/newral1998
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/Newral.Inc
-
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:info@newral.co.jp
 
 markdown_extensions:
   - admonition
