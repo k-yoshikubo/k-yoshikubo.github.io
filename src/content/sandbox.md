@@ -40,3 +40,16 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 !!! summary
     これは概要です。
+
+
+<label for="name">名前</label>
+<input type="text" name="name" id="name" placeholder="名前"><br />
+<label><input type="radio" name="sex" value="male">男</label>
+<label><input type="radio" name="sex" value="female">女</label><br />
+<label for="food">好きな食べ物</label>
+<select name="food" id="food">
+    <option value="meat">肉</option>
+    <option value="fish">魚</option>
+    <option value="vegetable">野菜</option>
+    <option value="other">それ以外</option>
+</select>
