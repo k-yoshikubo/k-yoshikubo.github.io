@@ -2,7 +2,7 @@ site_name: "ニューラル株式会社"
 
 site_dir: docs
 docs_dir: src
-remote_branch: master
+remote_branch: main
 
 theme:
   name: material
