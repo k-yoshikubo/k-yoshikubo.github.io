@@ -1,0 +1,40 @@
+site_name: "ニューラル株式会社"
+
+site_dir: docs
+docs_dir: src
+remote_branch: main
+
+theme:
+  name: material
+  logo: assets/images/logo-trans.png
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    # - toc.integrate
+
+nav:
+- ホーム: 'index.md'
+- User Guide:
+    - 'Writing your docs': 'content/user-guide/writing-your-docs.md'
+    - 'Styling your docs': 'content/user-guide/styling-your-docs.md'
+- About:
+    - 'License': 'content/about/license.md'
+    - 'Release Notes': 'content/about/release-notes.md'
+- その他:
+    - 'サンプル': 'content/sandbox.md'
+
+extra_css:
+  - "https://fonts.googleapis.com/earlyaccess/notosansjp.css"
+  - "https://fonts.googleapis.com/css?family=Open+Sans:600,800"
+
+extra:
+  font:
+    text: "Noto Sans JP"
+    code: "Consolas"    
+  logo: 'assets/images/logo.png'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
